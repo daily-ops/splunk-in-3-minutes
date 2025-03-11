@@ -3,7 +3,7 @@
 ## What does this repo do?
 
 - Create Splunk container
-- Create Splunk forwarders
+- Create 5 Splunk forwarder containers
 
 ## Pre-requisites
 
