@@ -6,6 +6,8 @@ docker network create --driver bridge splunknet
 
 docker rm -f splunk
 
+docker pull splunk/splunk:9.4.1
+
 docker run --network splunknet -p 8000:8000 -e "SPLUNK_PASSWORD=Splunk123#" -d -e "SPLUNK_START_ARGS=--accept-license" -it --name splunk --hostname splunk splunk/splunk:9.4.1
 
 sleep 5
