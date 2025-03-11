@@ -2,8 +2,8 @@
 
 ## What does this repo do?
 
-- Create Splunk container
-- Create 5 Splunk forwarder containers
+- Create Splunk Enterprise trial container (This should allow us to play with Alert)
+- Create 5 Splunk forwarder containers with log generator script (Credit the generator script to Josh Samuelson from the [Learning Splunk course](https://www.linkedin.com/learning/learning-splunk-22169111)).
 
 ## Pre-requisites
 
