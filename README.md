@@ -1,4 +1,6 @@
-# splunk-in-3-minutes
+# Splunk in 3 minutes
+
+Setting up an environment may take some of your time. This repository aims to get a local playground environment up quickly. It will require internet access at the start then everything can go offline and disconnected once setup. The 5 forwarders come built-in to simulate multiple h9sts and sources, where references for queries are scattered around internet, for example, https://www.stationx.net/splunk-cheat-sheet/.
 
 ## What does this repo do?
 
